@@ -26,8 +26,6 @@
   margin-right: 3%;
   display: flex;
   align-items: center;
-  overflow: auto;
-  white-space: nowrap;
 }
 #navOptions > a > button {
   font-size: 18px;
