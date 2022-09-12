@@ -42,9 +42,9 @@
   color: yellow;
   cursor: pointer;
 }
-@media all and (max-width: 810px) {
+/* @media all and (max-width: 810px) {
   #navOptions {
     overflow: auto;
     white-space: nowrap;
   }
-}
+} */
