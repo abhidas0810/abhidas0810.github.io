@@ -101,12 +101,12 @@
   text-align: center;
   font-size: 28px;
   background-color: #81d4fa;
-  padding-bottom: 100px;  
+  padding-bottom: 100px;
 }
-#skills>h1{
+#skills > h1 {
   margin-bottom: 80px;
 }
-#skills>p{
+#skills > p {
   text-align: justify;
   margin: 2%;
   font-size: 20px;
@@ -114,11 +114,14 @@
 #projectsSection {
   /* border: 1px solid; */
   width: 100%;
-  height: 50px;
+  /* height: 50px; */
   margin-top: 80px;
   padding-top: 100px;
   text-align: center;
   font-size: 28px;
+}
+#projects > h1 {
+  margin-bottom: 50px;
 }
 #contactSection {
   /* margin-top: 1000px; */
@@ -130,14 +133,20 @@
   text-align: center;
   font-size: 28px;
 }
-#contact>div>h2{
+#contact > div > h2 {
   margin-bottom: 30px;
 }
-.contactImg{
+.contactImg {
   /* width: 120px; */
   height: 90px;
   margin: 30px;
   /* border: 1px solid; */
+}
+.proImg {
+  width: 40%;
+}
+#proj1 {
+  margin-bottom: 50px;
 }
 #statisticsSection {
   /* margin-top: 1000px; */
@@ -149,7 +158,7 @@
   text-align: center;
   font-size: 28px;
 }
-#contact>#cell{
+#contact > #cell {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -192,7 +201,7 @@
   #contactSection {
     font-size: 16px;
   }
-  #skills>p{
+  #skills > p {
     font-size: 16px;
   }
 }
