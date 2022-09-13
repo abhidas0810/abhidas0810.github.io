@@ -72,45 +72,89 @@
   font-size: 20px;
   line-height: 30px;
 }
-#skillsSection {
+#tech-stackSection {
   margin-top: 80px;
   padding-top: 100px;
   /* border: 1px solid;   */
   text-align: center;
   font-size: 28px;
 }
-#skills > div {
+#tech-stack > div {
   /* border: 1px solid; */
   width: 90%;
   margin: auto;
   margin-top: 50px;
 }
-#skills > div > img {
+#tech-stack > div > img {
   height: 180px;
   width: 200px;
   margin: 3%;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-radius: 4%;
 }
+#skillsSection {
+  margin-top: 80px;
+  padding-top: 100px;
+  /* border: 1px solid; */
+  text-align: center;
+  font-size: 28px;
+  background-color: #81d4fa;
+  padding-bottom: 100px;  
+}
+#skills>h1{
+  margin-bottom: 80px;
+}
+#skills>p{
+  text-align: justify;
+  margin: 2%;
+  font-size: 20px;
+}
 #projectsSection {
-  margin-top: 1000px;
-  border: 1px solid;
+  /* border: 1px solid; */
   width: 100%;
   height: 50px;
-  /* margin-top: 80px; */
-  /* padding-top: 100px; */
+  margin-top: 80px;
+  padding-top: 100px;
   text-align: center;
   font-size: 28px;
 }
 #contactSection {
-  margin-top: 1000px;
-  border: 1px solid;
+  /* margin-top: 1000px; */
+  /* border: 1px solid; */
   width: 100%;
-  height: 50px;
-  /* margin-top: 80px; */
-  /* padding-top: 100px; */
+  /* height: 50px; */
+  margin-top: 80px;
+  padding-top: 100px;
   text-align: center;
   font-size: 28px;
+}
+#contact>div>h2{
+  margin-bottom: 30px;
+}
+.contactImg{
+  /* width: 120px; */
+  height: 90px;
+  margin: 30px;
+  /* border: 1px solid; */
+}
+#statisticsSection {
+  /* margin-top: 1000px; */
+  /* border: 1px solid; */
+  width: 100%;
+  /* height: 50px; */
+  margin-top: 80px;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 28px;
+}
+#contact>#cell{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
 }
 @media all and (max-width: 810px) {
   #introSection > #intro > h1 {
@@ -128,24 +172,27 @@
   #about > div:last-child {
     padding-right: 30px;
   }
-  #about > div:last-child > h1 {
+  h1 {
     font-size: 21px;
   }
   #about > div:last-child > p {
     font-size: 14px;
     line-height: 20px;
   }
-  #skills > div > img {
+  #tech-stack > div > img {
     height: 80px;
     width: 100px;
   }
-  #skillsSection {
+  #tech-stackSection {
     font-size: 16px;
   }
   #projectsSection {
     font-size: 16px;
   }
   #contactSection {
+    font-size: 16px;
+  }
+  #skills>p{
     font-size: 16px;
   }
 }
