@@ -159,9 +159,11 @@
 }
 #proj2 > div > p {
   font-size: 17px;
+  line-height: 30px;
 }
 #proj1 > div > p {
   font-size: 17px;
+  line-height: 30px;
 }
 #proj1 > div > img {
   margin: 4%;
@@ -180,15 +182,29 @@
   /* border: 1px solid; */
 }
 #proj1 > div > .proImg {
+  margin: auto;
   width: 100%;
   height: 80%;
 }
 #proj2 > div > .proImg {
+  margin: auto;
   width: 100%;
   height: 80%;
 }
 #proj1 {
   margin-bottom: 50px;
+}
+.proButton {
+  margin: 2%;
+  background-color: transparent;
+  border-radius: 5px 20px;
+  font-size: 16px;
+  padding: 1.5%;
+}
+.proButton:hover {
+  border-radius: 20px 5px;
+  background-color: #027bfe;
+  cursor: pointer;
 }
 #statisticsSection {
   /* margin-top: 1000px; */
