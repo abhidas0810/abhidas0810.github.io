@@ -1,20 +1,17 @@
 body {
   background: rgb(238, 174, 202);
-  background: radial-gradient(
-    circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 1) 100%);
 }
+
 #introSection {
   border: 1px solid;
   width: 100%;
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(43, 43, 233, 1) 37%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(43, 43, 233, 1) 37%,
+      rgba(0, 212, 255, 1) 100%);
   color: white;
   height: 550px;
   display: flex;
@@ -23,33 +20,40 @@ body {
   align-items: center;
   text-align: center;
 }
-#intro > div {
+
+#intro>div {
   margin-top: 20%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .docImg {
   width: 50px;
   margin-left: 2%;
 }
+
 #resume {
   font-size: 17px;
   margin-top: 10%;
   padding: 12%;
   cursor: pointer;
 }
-#introSection > #intro > h1 {
+
+#introSection>#intro>h1 {
   font-size: 100px;
 }
-#introSection > #intro > h2 {
+
+#introSection>#intro>h2 {
   font-size: 40px;
 }
+
 #aboutSection {
   margin-top: 50px;
   padding-top: 100px;
 }
+
 #about {
   display: grid;
   padding-left: 8%;
@@ -57,44 +61,50 @@ body {
   gap: 5%;
   justify-content: space-around;
 }
-#about > div {
+
+#about>div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-#about > div:first-child > img {
+
+#about>div:first-child>img {
   width: 80%;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   border-radius: 5% 20%;
   background-color: wheat;
 }
-#about > div:last-child {
+
+#about>div:last-child {
   padding-right: 50px;
   text-align: justify;
 }
-#about > div:last-child > h1 {
+
+#about>div:last-child>h1 {
   font-size: 42px;
   margin-bottom: 30px;
 }
-#about > div:last-child > p {
+
+#about>div:last-child>p {
   font-size: 20px;
   line-height: 30px;
 }
+
 #tech-stackSection {
   margin-top: 80px;
   padding-top: 100px;
-  /* border: 1px solid;   */
   text-align: center;
   font-size: 28px;
 }
-#tech-stack > div {
-  /* border: 1px solid; */
+
+#tech-stack>div {
   width: 90%;
   margin: auto;
   margin-top: 50px;
 }
-#tech-stack > div > img {
+
+#tech-stack>div>img {
   height: 180px;
   width: 200px;
   margin: 3%;
@@ -103,106 +113,123 @@ body {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-radius: 4%;
 }
+
 #skillsSection {
   margin-top: 80px;
   padding-top: 100px;
-  /* border: 1px solid; */
   text-align: center;
   font-size: 28px;
   padding-bottom: 100px;
 }
-#skills > h1 {
+
+#skills>h1 {
   margin-bottom: 80px;
 }
-#skills > p {
+
+#skills>p {
   text-align: justify;
   margin: 2%;
   font-size: 20px;
 }
+
 #projectsSection {
-  /* border: 1px solid; */
   width: 100%;
   margin-top: 80px;
   padding-top: 100px;
   text-align: center;
   font-size: 28px;
 }
-#projects > h1 {
+
+#projects>h1 {
   margin-bottom: 50px;
 }
+
 #contactSection {
-  /* margin-top: 1000px; */
-  /* border: 1px solid; */
   width: 100%;
-  /* height: 50px; */
   margin-top: 80px;
   padding-top: 100px;
   text-align: center;
   font-size: 28px;
 }
-#contact > div > h2 {
+
+#contact>div>h2 {
   margin-bottom: 30px;
 }
+
 #proj1 {
   width: 70%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 3%;
   text-align: center;
   margin: auto;
 }
+
 #proj2 {
   width: 70%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 3%;
   text-align: center;
   margin: auto;
   margin-top: 100px;
 }
-#proj1 > div {
+
+#proj1>div {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 3%;
+  border-radius: 5%;
 }
-#proj2 > div {
+
+#proj2>div {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 3%;
+  border-radius: 5%;
 }
-#proj2 > div > p {
+
+#proj2>div>p {
   font-size: 17px;
   line-height: 30px;
 }
-#proj1 > div > p {
+
+#proj1>div>p {
   font-size: 17px;
   line-height: 30px;
 }
-#proj1 > div > img {
+
+#proj1>div>img {
   margin: 4%;
   width: 50px;
   height: 50px;
 }
-#proj2 > div > img {
+
+#proj2>div>img {
   margin: 4%;
   width: 50px;
   height: 50px;
 }
+
 .contactImg {
-  /* width: 120px; */
   height: 90px;
   margin: 30px;
-  /* border: 1px solid; */
 }
-#proj1 > div > .proImg {
+
+#proj1>div>.proImg {
   margin: auto;
   width: 100%;
   height: 80%;
 }
-#proj2 > div > .proImg {
+
+#proj2>div>.proImg {
   margin: auto;
   width: 100%;
   height: 80%;
 }
+
 #proj1 {
   margin-bottom: 50px;
 }
+
 .proButton {
   margin: 2%;
   background-color: transparent;
@@ -210,81 +237,165 @@ body {
   font-size: 16px;
   padding: 1.5%;
 }
+
 .proButton:hover {
   border-radius: 20px 5px;
-  background-color: #027bfe;
+  background-color: #00baf2;
   cursor: pointer;
 }
+
 #statisticsSection {
-  /* margin-top: 1000px; */
-  /* border: 1px solid; */
   width: 100%;
-  /* height: 50px; */
   margin-top: 80px;
   padding-top: 100px;
   text-align: center;
   font-size: 28px;
 }
-#contact > #cell {
+
+#contact>#cell {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   margin-bottom: 50px;
 }
+
+#stst {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  justify-content: center;
+}
+
+.stst {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#statVal {
+  display: flex;
+  font-size: 20px;
+  font-weight: bolder;
+  justify-content: center;
+}
+
+#statVal>p {
+  margin: 10px;
+  width: 150px;
+}
+
 @media all and (max-width: 810px) {
-  #introSection > #intro > h1 {
+  #introSection>#intro>h1 {
     font-size: 40px;
   }
-  #introSection > #intro > h2 {
+
+  #introSection>#intro>h2 {
     font-size: 18px;
   }
+
   #about {
     grid-template-columns: 1fr;
   }
-  #about > div:first-child > img {
+
+  #about>div:first-child>img {
     width: 50%;
   }
-  #about > div:last-child {
+
+  #about>div:last-child {
     padding-right: 30px;
   }
+
   h1 {
     font-size: 21px;
   }
-  #about > div:last-child > p {
+
+  #about>div:last-child>p {
     font-size: 14px;
     line-height: 20px;
   }
-  #tech-stack > div > img {
+
+  #tech-stack>div>img {
     height: 80px;
     width: 100px;
   }
+
   #tech-stackSection {
     font-size: 16px;
   }
+
   #projectsSection {
     font-size: 16px;
   }
+
+  #proj1>div~div {
+    height: 200px;
+  }
+
+  #proj1>div>.proImg {
+    height: 98%;
+  }
+
+  #proj2>#pal {
+    height: 200px;
+  }
+
+  #proj2>div>.proImg {
+    height: 98%;
+  }
+
   #contactSection {
     font-size: 16px;
   }
-  #skills > p {
+
+  #skills>p {
     font-size: 16px;
   }
-  #proj1 {   
+
+  #proj1 {
     grid-template-columns: repeat(1, 1fr);
   }
-  #proj2 {   
+
+  #proj2 {
     grid-template-columns: repeat(1, 1fr);
   }
-  #proj1 > div > p {
+
+  #proj1>div>p {
     font-size: 15px;
     line-height: 20px;
     text-align: justify;
   }
-  #proj2 > div > p {
+
+  #proj2>div>p {
     font-size: 15px;
     line-height: 20px;
     text-align: justify;
+  }
+
+  .stst {
+    width: 70px;
+    height: 70px;
+    font-size: 16px;
+    margin: 5px;
+  }
+
+  #statVal {
+    font-size: 16px;
+  }
+
+  #statVal>p {
+    margin: 3px;
+    margin-top: 20px;
+    width: 80px;
+  }
+
+  #cell {
+    display: flex;
+    flex-direction: column;
   }
 }
