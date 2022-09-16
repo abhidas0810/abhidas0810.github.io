@@ -290,6 +290,14 @@ body {
   width: 150px;
 }
 
+#commit {
+  margin-top: 70px;
+}
+
+#commit>img {
+  margin-top: 20px;
+}
+
 @media all and (max-width: 810px) {
   #introSection>#intro>h1 {
     font-size: 40px;
@@ -392,6 +400,14 @@ body {
     margin: 3px;
     margin-top: 20px;
     width: 80px;
+  }
+
+  #commit>p {
+    font-size: 18px;
+  }
+
+  #commit>img {
+    width: 85%;
   }
 
   #cell {
