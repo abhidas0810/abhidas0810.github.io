@@ -4,14 +4,11 @@
 
 Responsive Portfolio Website Using HTML, CSS and JavaScript, with a beautiful user interface. 
 Website contains: 
-- Header 
+- Navbar 
 - Home
 - About
+- Teck-Stack
 - Skills
-- Qualification
-- Services
-- Portfolio
-- Project in mind
-- Testimonial
+- Projects
+- Statistics
 - Contact
-- Footer 
