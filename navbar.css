@@ -27,6 +27,8 @@
   margin-right: 3%;
   display: flex;
   align-items: center;
+  overflow: auto;
+  white-space: nowrap;
 }
 #navOptions > a > button {
   font-size: 18px;
@@ -39,13 +41,14 @@
   background-color: transparent;
   width: 100px;
   white-space: nowrap;
+  
 }
 #navOptions > a > button:hover {
   background-color: #00baf2;
   border-radius: 20px 5px;
   cursor: pointer;
 }
-@media all and (max-width: 810px) {
+@media all and (max-width: 1000px) {
   #navOptions {
     overflow: auto;
     white-space: nowrap;

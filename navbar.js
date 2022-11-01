@@ -6,6 +6,7 @@ let navbar = () => {
         /></a>
       </div>
       <div id="navOptions">
+        <a href="./docs/Abhishek Das Resume.pdf" download target="_blank" ><button>Resume</button></a>
         <a href="#introSection" data-scroll><button>Home</button></a>
         <a href="#aboutSection" data-scroll><button>About</button></a>
         <a href="#tech-stackSection" data-scroll><button>Tech-Stack</button></a>
