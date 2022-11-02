@@ -303,12 +303,24 @@ body {
   width: 150px;
 }
 
+#commit > p {
+  margin: 20px;
+}
+
 #commit {
+  /* border: 10px solid red; */
+  text-align: center;
+  padding-bottom: 4rem;
   margin-top: 70px;
 }
 
-#commit > p {
-  margin: 20px;
+#commit > .calendar {
+  width: 80%;
+  margin: auto;
+  background-color: #f7f7f7;
+  border: 1px solid #2b313d;
+  padding: 4rem;
+  border: none;
 }
 
 @media all and (max-width: 810px) {
@@ -417,11 +429,7 @@ body {
 
   #commit > p {
     font-size: 18px;
-  }
-
-  #commit > img {
-    width: 85%;
-  }
+  } 
 
   #cell {
     display: flex;

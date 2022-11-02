@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./navbar.css" />
   <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
   <link rel="icon" type="image/x-icon" href="./docs/logo.jpg">
   <title>Abhishek Das</title>
 </head>
@@ -114,7 +115,7 @@
         <div class="stst">1200+</div>
         <div class="stst">800+</div>
         <div class="stst">100+</div>
-        <div class="stst">270+</div>
+        <div class="stst">350+</div>
       </div>
       <div id="statVal">
         <p>Hours of Coding</p>
@@ -124,10 +125,15 @@
       </div>
     </div>
     <div id="commit">
-      <p align="center">My Github Statistics<p>
-      <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=abhidas0810&theme=radical" alt="Samruddhi" height="250px" width="47%" />
+      <p align="center">My Github Statistics
+      <p>
+        <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=abhidas0810&theme=radical"
+          alt="" height="250px" width="47%" />
       <p>GitHub contribution calendar</p>
-      <img src="./docs/commit.png">
+      <div class="calendar">
+        <!-- Loading stuff -->
+        <!-- Loading the data just for you. -->
+      </div>
     </div>
   </section>
   <section id="contactSection">
@@ -150,3 +156,10 @@
 
 </html>
 <script src="/index.js" type="module"></script>
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+<script>
+  GitHubCalendar(".calendar", "abhidas0810");
+  // or enable responsive functionality
+  GitHubCalendar(".calendar", "abhidas0810", { responsive: true });
+</script>
