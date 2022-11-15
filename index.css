@@ -429,10 +429,20 @@ body {
 
   #commit > p {
     font-size: 18px;
-  } 
+  }
 
   #cell {
     display: flex;
     flex-direction: column;
+  }
+
+  #commit > .calendar {
+    font-size: 15;
+  }
+}
+
+@media all and (max-width: 410px) {
+  #commit > .calendar {
+    font-size: 5;
   }
 }
