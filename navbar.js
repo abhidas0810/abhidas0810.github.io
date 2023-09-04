@@ -9,6 +9,7 @@ let navbar = () => {
         <a href="./docs/Abhishek-Das-Resume.pdf" download target="_blank" onclick="window.open('./docs/Abhishek-Das-Resume.pdf')" ><button>Resume</button></a>
         <a href="#introSection" data-scroll><button>Home</button></a>
         <a href="#aboutSection" data-scroll><button>About</button></a>
+        <a href="#experienceSection" data-scroll><button>Experience</button></a>
         <a href="#tech-stackSection" data-scroll><button>Tech-Stack</button></a>
         <a href="#skillsSection" data-scroll><button>Skills</button></a>
         <a href="#projectsSection" data-scroll><button>Projects</button></a>

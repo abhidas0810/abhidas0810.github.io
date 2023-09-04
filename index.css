@@ -104,6 +104,25 @@ body {
   line-height: 30px;
 }
 
+#experienceSection {
+  margin-top: 50px;
+  padding-top: 100px;
+}
+
+#experience {
+  text-align: center;
+}
+
+#experience > h1 {
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+
+#experience > p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
 #tech-stackSection {
   margin-top: 80px;
   padding-top: 100px;
